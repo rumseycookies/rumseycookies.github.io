@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why are our recipes different?"
-categories: misc
+categories: recipes
 ---
 
 > “A recipe has no soul. You as the cook must bring soul to the recipe.”

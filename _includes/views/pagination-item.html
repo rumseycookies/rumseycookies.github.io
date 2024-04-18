@@ -34,13 +34,13 @@
       {%- include views/post-badges.html -%}
     </a>
   </h2>
-  <div class="post-meta">
+  <!-- <div class="post-meta">
     <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
     {%- if post.author -%}
     <span class="post-author left-vsplit"><i class="fa fa-pencil"></i> {{ post.author | escape }}</span>
     {%- endif -%}
-    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
-  </div>
+  </div> -->
   <div class="post-excerpt">
     {%- if post_image and post_image != 'NO_EXCERPT_IMAGE' -%}
     <a  class="post-image" href="{{ post_url }}" style="flex: 0 1 {{ image_width }}">

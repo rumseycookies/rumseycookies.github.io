@@ -9,6 +9,86 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <style>
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Desktop: 3 columns */
+      grid-gap: 20px;
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr; /* Mobile: 1 column */
+      }
+    }
+
+    .product-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: scroll;
+      margin-bottom: 20px; /* Add space between cards */
+    }
+
+    .product-slider {
+      height: 175px; /* Set the desired height for the image slider */
+      overflow: scroll;
+    }
+
+    .product-slider img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain aspect ratio while covering the entire slider area */
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .product-slider img:hover {
+      transform: scale(1.1); /* Add a zoom effect on hover */
+    }
+
+    .product-details {
+      padding: 10px;
+    }
+
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product-price-quantity {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      color: green;
+      font-weight: bold;
+    }
+
+    .product-quantity {
+      color: rgb(137, 137, 241);
+    }
+
+    .product-description {
+      line-height: 1.2;
+    }
+
+    .product-availability {
+      background-color: lightgreen;
+      color: green;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    /* the product titles link should be white */
+    .product-title a {
+      color: white;
+    }
+  </style>
   <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

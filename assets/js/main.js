@@ -56,3 +56,32 @@ function smoothScrollTo(y, time) {
   }
 }
 
+// Get all product sliders
+const productSliders = document.querySelectorAll('.product-slider');
+
+// Function to show/hide images in the slider
+function showImage(slider, index) {
+  const images = slider.querySelectorAll('img');
+
+  for (const img of images) {
+    img.style.opacity = '0';
+  }
+
+  images[index].style.opacity = '1';
+}
+
+// Add event listeners to product sliders
+productSliders.forEach((slider, index) => {
+  const numberOfImages = slider.querySelectorAll('img').length;
+
+  slider.addEventListener('mouseover', (event) => {
+    const hoveredImage = event.target;
+    const hoveredImageIndex = [...hoveredImage.parentElement.children].indexOf(hoveredImage);
+
+    showImage(slider, hoveredImageIndex);
+  });
+
+  slider.addEventListener('mouseout', () => {
+    showImage(slider, 0);
+  });
+});
