@@ -2,7 +2,7 @@
 layout: post
 title: "Почему наши рецепты так отличаются от других рецептов?"
 categories: recipes
-banner:
+banner: "/assets/images/trio_milk.JPG"
 banner_html: post-header.html
 excerpt_image: "/assets/images/trio_milk.JPG"
 ---
