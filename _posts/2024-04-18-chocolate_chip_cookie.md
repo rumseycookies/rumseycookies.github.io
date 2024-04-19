@@ -3,6 +3,7 @@ layout: post
 title: "Chocolate Chip Cookies"
 categories: cookies
 excerpt_image: "assets/images/banners/cookiestack_milk.jpg"
+banner: "assets/images/banners/cookiestack_milk.JPG"
 ---
 
 ![Chocolate Chip Cookies](/assets/images/banners/cookiestack_milk.JPG)
