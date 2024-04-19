@@ -4,6 +4,7 @@ title: "Почему наши рецепты так отличаются от д
 categories: recipes
 banner:
 banner_html: post-header.html
+excerpt-image: "/assets/images/trio_milk.JPG"
 ---
 
 Bringing our recipes to life
