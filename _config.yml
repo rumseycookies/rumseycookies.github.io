@@ -164,7 +164,7 @@ defaults:
   home:
     heading: "Добро пожаловать на наш веб-сайт выпечки Rumsey!"
     subheading: ""
-    banner: "/assets/images/banners/plate_wheat_cookies.JPG"
+    banner: "/assets/images/banners/plate_wheat_cookies.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
