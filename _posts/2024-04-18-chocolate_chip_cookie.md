@@ -2,10 +2,11 @@
 layout: post
 title: "Chocolate Chip Cookies"
 categories: cookies
-excerpt_image: "assets/images/banners/cookiestack_milk.JPG"
+excerpt_image: "assets/images/cookie_zoom.JPG"
+banner: "/assets/images/three_cookies.JPG"
 ---
 
 
-![Chocolate Chip Cookies](/assets/images/banners/cookiestack_milk.JPG)
+<!-- ![Chocolate Chip Cookies](/assets/images/banners/cookiestack_milk.JPG) -->
 
 Печенье с кусочками шоколада по американскому рецепту.

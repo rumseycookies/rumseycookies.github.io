@@ -100,8 +100,8 @@
           })();
         </script>
       {%- else -%}
-        <div style="background-image: url(assets/images/banners/plate_wheat_cookies.JPG)"></div>
-        <img class="img-placeholder" src="assets/images/banners/plate_wheat_cookies.JPG">
+        <div style='background-image: url("{{ banner_image }}")'></div>
+        <img class="img-placeholder" src="{{ banner_image }}">
       {%- endif -%}
     </div>
     <div class="wrapper">

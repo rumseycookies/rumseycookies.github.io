@@ -176,7 +176,7 @@ banner:
 #   start_at: 0             # Video start time
 #   image: null             # Image banner source
 #   opacity: 1.0            # Banner opacity (100% is 1.0)
-  background: "assets/images/banners/plate_wheat_cookies.jpg"  # Banner background (Could be a image)
+  # background: "assets/images/banners/plate_wheat_cookies.jpg"  # Banner background (Could be a image)
 #   height: "640px"         # Banner default height
 #   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
