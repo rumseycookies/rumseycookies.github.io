@@ -12,11 +12,6 @@ Bringing our recipes to life
 > “A recipe has no soul. You as the cook must bring soul to the recipe.”
 – Thomas Keller
 
-<!-- > «У рецепта нет души. Вы, как повар, должны вложить душу в рецепт».
-— Томас Келлер -->
-
-<!-- A description of why our recipes are so tasty and alot better than normal grocery stores or manufactured food. -->
-
 
 We take immense pride in crafting each delectable treat with love, passion, and the time-honored traditions of a family business. Our recipes are not just a collection of ingredients and instructions; they are the essence of our family's love for cooking, passed down through generations. If we wouldn't eat it, we wouldn't feed it to anyone! In this post, we would like to share why our recipes outshine those from other companies and factories.
 
