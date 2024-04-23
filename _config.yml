@@ -102,6 +102,10 @@ translate_langs:
     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
     text: Russian
 
+  - lang: es
+    img: https://cdn.countryflags.com/thumbs/spain/flag-400.png
+    text: Spanish
+
 # You can choose a theme color
 # Default theme colors as below:
 # coolblack: #090a0b
