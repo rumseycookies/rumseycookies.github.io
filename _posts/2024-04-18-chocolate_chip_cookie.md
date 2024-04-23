@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Chocolate Chip Cookies"
-categories: cookies
+title: "Chocolate Chip Cookies (печенье с кусочками шоколада)"
+categories: печенье
 excerpt_image: "assets/images/cookie_zoom.JPG"
 banner: "/assets/images/three_cookies.JPG"
 ---
